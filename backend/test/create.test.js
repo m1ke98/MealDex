@@ -3,7 +3,7 @@ const express = require("express");
 const dbo = require("../db/conn");
 const recordRouter = require("../routes/record");
 
-describe("Record API", () => {
+describe("API Tests", () => {
   let app;
 
   before(async () => {
