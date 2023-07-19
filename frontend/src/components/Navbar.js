@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="absolute">
+      <AppBar position="sticky">
         <Toolbar>
           <IconButton
             size="large"
@@ -38,6 +38,11 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link underline="hover" href="/recipes">
               Recipes
+            </Link>
+          </Typography>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Link underline="hover" href="/add-recipe">
+              Add Recipe
             </Link>
           </Typography>
           {auth && (

@@ -40,10 +40,9 @@ export default function RecipeList() {
 
 const itemData = [
   {
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-    title: "Breakfast",
-    author: "@bkristastucchio",
-    rows: 2,
+    img: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+    title: "Bucatini all'Amatriciana",
+    author: "@michaeldargenio",
     cols: 2,
     featured: true,
   },
